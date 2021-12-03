@@ -22,15 +22,6 @@ body {
     justify-content: space-between;
 }
 
-.header .logo {
-    margin-left: 215px;
-}
-
-.header nav {
-    position: absolute;
-    left: 453px;
-}
-
 .header nav ul, li {
     display: inline-block;
 }
@@ -42,11 +33,6 @@ body {
 
 .header ul {
     margin-top: 32px;
-}
-
-.header .right {
-    position: absolute;
-    right: 215px;
 }
 
 .web {
@@ -132,8 +118,11 @@ body {
     margin-top: 94px;
 }
 
+.container {
+    width: 1200px;
+}
+
 .flex-container {
-    width: 100%;
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
@@ -141,6 +130,12 @@ body {
     margin-block-start: 0;
     margin-block-end: 0;
     padding-inline-start: 0;
+}
+
+.container-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .our-advantages li {
@@ -171,7 +166,6 @@ body {
 }
 
 .page-tittles {
-    width: 100%;
     justify-content: center;
 
     font-style: normal;
@@ -190,7 +184,6 @@ body {
 
 .what-we-are-doing li {
     width: 370px;
-    height: 294px;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -203,7 +196,6 @@ body {
 
 .our-command li {
     width: 270px;
-    height: 368px;
     margin-left: 15px;
     margin-right: 15px;
     text-align: center;
@@ -226,7 +218,6 @@ body {
 }
 
 .our-portfolio h2 {
-    width: 100%;
     justify-content: center;
 
     font-style: normal;
@@ -238,8 +229,6 @@ body {
 }
 
 .our-portfolio ul {
-    margin-left: 5%;
-    width: 90%;
     flex-wrap: wrap;
 }
 
@@ -267,27 +256,31 @@ body {
 }
 
 .our-portfolio .img-portfolio {
-    margin-top: 54px;
+    margin-top: 50px;
     margin-bottom: 94px;
 }
 
 .our-portfolio .img-portfolio li {
     width: 370px;
-    height: 404px;
     margin-left: 15px;
     margin-right: 15px;
     text-align: left;
     font-size: 16px;
     line-height: 1.18;
+    border: 1px solid #EEEEEE;
+    margin-bottom: 30px;
 }
+
 
 .our-portfolio h3 {
     font-weight: bold;
     color: rgba(33, 33, 33, 1);
+    margin-left: 24px;
 }
 
 .our-portfolio p {
-    color:rgba(117, 117, 117, 1)
+    color:rgba(117, 117, 117, 1);
+    margin-left: 24px;
 }
 
 .portfolio-link { 
@@ -296,9 +289,8 @@ body {
 
 /* footer section */
 .footer {
-    padding-left: 215px;
+    width: 100%;
     padding-top: 60px;
-    width: auto;
     height: 252px;
     background: #2F303A;
 }

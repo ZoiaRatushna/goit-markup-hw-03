@@ -12,42 +12,44 @@
 </head>
 <body>
      <!--header section-->  
-    <header class="header">
-        <a class="logo" href="#"><span class="web">Web</span><span class="studio">Studio</span></a>    
-        <nav>
-            <ul>
-                <li> 
-                    <a class="nav-link" href="#">Студия</a> 
-                </li>   
-                <li>       
-                    <a class="nav-link" href="./portfolio.html">Портфолио</a>
-                </li>   
-                <li>       
-                    <a class="nav-link" href="#">Контакты</a>
-                </li>       
+    <header class="header flex-container">
+        <div class="container flex-container">
+            <a class="logo" href="#"><span class="web">Web</span><span class="studio">Studio</span></a>    
+            <nav>
+                <ul>
+                    <li> 
+                        <a class="nav-link" href="#">Студия</a> 
+                    </li>   
+                    <li>       
+                        <a class="nav-link" href="./portfolio.html">Портфолио</a>
+                    </li>   
+                    <li>       
+                        <a class="nav-link" href="#">Контакты</a>
+                    </li>       
+                </ul>
+            </nav>
+            <!-- contacts section--> 
+            <ul class="right">
+                <li>
+                    <a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li>
+                    <a class="contacts-link" href="tel:+380961111111">+38 096 111 11 11</a>
+                </li>
             </ul>
-        </nav>
-        <!-- contacts section--> 
-        <ul class="right">
-            <li>
-                <a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            </li>
-            <li>
-                <a class="contacts-link" href="tel:+380961111111">+38 096 111 11 11</a>
-            </li>
-        </ul>     
+        </div> 
     </header>         
     <main>    
         <!--effective solutions section-->  
         <section class= "effective-solutions flex-container">
-            <h1>
+            <h1 class="container">
                 Эффективные решения для вашего бизнеса
             </h1>
             <button type="button">Заказать услугу</button>    
         </section>
         <!--effective solutions scroll section-->  
-        <section class="our-advantages">
-            <ul class="flex-container">
+        <section class="our-advantages container-content">
+            <ul class="flex-container container">
                 <li>
                     <h3>Внимание к деталям</h3>
                     <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -67,9 +69,9 @@
             </ul>
         </section>
         <!--What we are doing section--> 
-        <section class="what-we-are-doing">
-            <h2 class="page-tittles">Чем мы занимаемся</h2>
-            <ul class="flex-container">
+        <section class="what-we-are-doing container-content">
+            <h2 class="page-tittles container">Чем мы занимаемся</h2>
+            <ul class="flex-container container">
                 <li>
                     <img src="images/foto1.jpg" alt="foto1" width="370" height="294">
                 </li>
@@ -82,10 +84,10 @@
             </ul>
         </section>
         <!--Our comand section-->  
-        <section class="our-command">
-            <h2 class="page-tittles">Наша команда</h2>
+        <section class="our-command container-content">
+            <h2 class="page-tittles container">Наша команда</h2>
             <!--Igor Demianenko section--> 
-            <ul class="flex-container">
+            <ul class="flex-container container">
                 <li> 
                     <img src="images/comanda1.jpg" alt="Igor Demianenko" width="270" height="260">
                     <h3>Игорь Демьяненко</h3>
@@ -112,8 +114,8 @@
             </ul> 
         </section>
     </main>
-    <footer class="footer"> 
-        <div>
+    <footer class="footer container-content"> 
+        <div class="container">
             <a href="#"><span class="web">Web</span><span class="studio studio-white">Studio</span></a>
             <address>
                 <ul>
