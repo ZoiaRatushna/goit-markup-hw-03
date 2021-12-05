@@ -22,17 +22,29 @@ body {
     justify-content: space-between;
 }
 
-.header nav ul, li {
+.header 
+nav 
+ul, 
+li {
     display: inline-block;
 }
 
+.header div {
+    padding: 0 15px;
+    justify-content: space-between;
+}
+
 .header a {
-    margin-top: 24px;
+    padding-top: 24px;
     text-decoration:none;
+    font-size: 14px;
+    line-height: 1.14;
 }
 
 .header ul {
-    margin-top: 32px;
+    padding-top: 18px;
+    padding-right: 56px;
+    padding-inline-start: 0;
 }
 
 .web {
@@ -61,7 +73,7 @@ body {
 
 /* navigation link */
 .nav-link {
-    margin-right: 50px;
+    padding-right: 50px;
     color: var(--text-primery-color);
 }
 
@@ -72,7 +84,7 @@ body {
 /* contacts link */
 .contacts-link {
     color:#757575;
-    margin-left: 50px;
+    padding-left: 50px;
 }
 .contacts-link:hover {
     color:var(--text-secondary-color);
@@ -115,7 +127,7 @@ body {
 
 /* our advantages content */
 .our-advantages {
-    margin-top: 94px;
+    padding-top: 94px;
 }
 
 .container {
@@ -140,8 +152,8 @@ body {
 
 .our-advantages li {
     width: 270px;
-    margin-left: 10px;
-    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .our-advantages h3 {
@@ -161,8 +173,8 @@ body {
 
 /* what we are doing title */
 .what-we-are-doing {
-    margin-top: 94px;
-    margin-bottom: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .page-tittles {
@@ -184,20 +196,20 @@ body {
 
 .what-we-are-doing li {
     width: 370px;
-    margin-left: 10px;
-    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 /* our comand section */
 .our-command {
-    margin-top: 50px;
-    margin-bottom: 94px;
+    padding-top: 50px;
+    padding-bottom: 94px;
 }
 
 .our-command li {
     width: 270px;
-    margin-left: 15px;
-    margin-right: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
     text-align: center;
     font-size: 16px;
     line-height: 1.18;
@@ -214,7 +226,7 @@ body {
 
 /* our portfolio section */
 .our-portfolio {
-    margin-top: 94px;
+    padding-top: 94px;
 }
 
 .our-portfolio h2 {
@@ -256,8 +268,8 @@ body {
 }
 
 .our-portfolio .img-portfolio {
-    margin-top: 50px;
-    margin-bottom: 94px;
+    padding-top: 50px;
+    padding-bottom: 94px;
 }
 
 .our-portfolio .img-portfolio li {
@@ -275,12 +287,12 @@ body {
 .our-portfolio h3 {
     font-weight: bold;
     color: rgba(33, 33, 33, 1);
-    margin-left: 24px;
+    padding-left: 24px;
 }
 
 .our-portfolio p {
     color:rgba(117, 117, 117, 1);
-    margin-left: 24px;
+    padding-left: 24px;
 }
 
 .portfolio-link { 
