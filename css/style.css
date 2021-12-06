@@ -42,9 +42,16 @@ li {
 }
 
 .header ul {
-    padding-top: 18px;
-    padding-right: 56px;
+    padding-top: 32px;
     padding-inline-start: 0;
+}
+
+.header-links {
+    padding-right: 56px;
+}
+
+.header-contacts {
+    padding-left: 56px;
 }
 
 .web {
@@ -92,7 +99,8 @@ li {
 
 /* effective solutions container */
 .effective-solutions {
-    height: 600px;
+    padding-top: 200px;
+    padding-bottom: 200px;
     background: #2F303A;
 
     flex-direction: column;
@@ -101,6 +109,7 @@ li {
 }
 
 .effective-solutions h1 {
+    padding-bottom: 30px;
     text-align: center;
     font-style: normal;
     font-weight: 900;
